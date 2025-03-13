@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbase | Build Your Agent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/buildAgent.css">
+    <link rel="icon" type="image/svg+xml" href="public/favicon.png">
+    <script src="main.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <div id="logo"><a href="../index.html"><img src="../public/logo.png" alt="logo"></a></div>
+    </header>
+    <main class="build-agent">
+        <h1>Build Your AI Agent</h1>
+        <p>Customize and deploy your AI-powered chatbot to assist employees with queries.</p>
+        
+        <form id="agent-form" action="/api/build-agent" method="POST" enctype="multipart/form-data">
+          <label for="agent-name">Agent Name:</label>
+          <input type="text" id="agent-name" placeholder="Enter agent name" required>
+          
+          <label for="description">Agent Description:</label>
+          <textarea id="description" placeholder="Describe your agent's purpose"></textarea>
+          
+          <label for="knowledge-base">Upload Knowledge Base:</label>
+          <input type="file" id="knowledge-base" accept=".txt,.pdf,.csv">
+          
+          <label for="response-style">Response Style:</label>
+          <select id="response-style">
+            <option value="formal">Formal</option>
+            <option value="friendly">Friendly</option>
+            <option value="technical">Technical</option>
+          </select>
+          
+          <div class="auth">
+            <label for="auth">Enable 2FA Authentication:</label>
+            <input type="checkbox" id="auth">
+            
+          </div>
+          <button type="submit">Deploy Agent</button>
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            <img src="../public/logo.png" alt="logo">
+            <p>Chatify is the complete platform for building & deploying AI agents for your business to handle IT and company policy queries</p>
+        </div>
+    </footer>
+</body>
+</html>

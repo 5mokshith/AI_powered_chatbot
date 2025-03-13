@@ -1,0 +1,32 @@
+@keyframes rotate-border {
+    0% {
+        border-top-color: hotpink;
+        border-right-color: yellow;
+        border-bottom-color: orangered;
+        border-left-color: blue;
+    }
+    25% {
+        border-top-color: yellow;
+        border-right-color: orangered;
+        border-bottom-color: blue;
+        border-left-color: hotpink;
+    }
+    50% {
+        border-top-color: orangered;
+        border-right-color: blue;
+        border-bottom-color: hotpink;
+        border-left-color: yellow;
+    }
+    75% {
+        border-top-color: blue;
+        border-right-color: hotpink;
+        border-bottom-color: yellow;
+        border-left-color: orangered;
+    }
+    100% {
+        border-top-color: hotpink;
+        border-right-color: yellow;
+        border-bottom-color: orangered;
+        border-left-color: blue;
+    }
+}

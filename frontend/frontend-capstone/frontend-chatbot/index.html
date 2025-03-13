@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/css/animation.css">
+    <title>Chatify | Home</title>  
+  </head>
+  <body>
+    <header>
+      <div id="logo"><a href="index.html"><img src="logo.png" alt="logo"></a></div>
+    </header>
+
+    <div class="hero">
+      <div class="left" data-aos="fade-right" data-aos-delay="200">
+        <h1>AI Agents at your fingertips for magical experiences.</h1>
+        <p>Chatify is the complte platform for building & deploying AI agents for your business to handle IT and company policy queries</p>
+        <div class="buttons" data-aos="fade-up" data-aos-delay="400">
+          <a href="src/buildAgent.html"><button>Build your agent</button></a>
+          <a href="src/chatbot.html"><button>Try now</button></a>
+        </div>
+      </div>
+      <div class="right" data-aos="fade-left" data-aos-delay="300">
+        <video preload="metadata" playsinline="" muted="" loop="" autoplay="" src="hero.webm">Your browser does not support the video tag. Please try viewing this page in a modern browser.</video>
+      </div>
+    </div>
+
+    <section class="features" data-aos="fade-up">
+      <div class="top">
+        <h2>The complete platform for AI support agents</h2>
+        <p>Chatbase is designed for building AI support agents that solve your customers' hardest problems while improving business outcomes.</p>
+      </div>
+      <div class="container">
+        <div class="card"><img src="card_1.webp" alt="purpose built for LLM">
+        <h3>Purpose-built for LLMs</h3>
+        <p>Language models with reasoning capabilities for effective responses to complex queries.</p>
+      </div>
+        <div class="card">
+          <img src="card_3.webp" alt="Engineered for security">
+          <h3>Designed for simplicity</h3>
+          <p>Create, manage, and deploy AI Agents easily, even without technical skills.</p>
+        </div>
+        <div class="card">
+          <img src="card_2.webp" alt="Designed for simplicity">
+          <h3>Engineered for security</h3>
+          <p>Enjoy peace of mind with robust encryption and strict compliance standards.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom">
+      <div class="text">
+        <h2>Make resolving employee queries quick, easy, and hassle-free with Chatify!</h2>
+        <p>Use Chatify’s chatbot-as-a-service to provide fast, reliable assistance to your employees. Build your own custom agent to streamline support and elevate the employee experience!</p>
+         <button>Build your agent</button>
+      </div>
+       <img src="card-bottom-image.webp" alt="bottom decoration image">
+    </section>
+
+    <footer>
+      <div class="container">
+          <img src="logo.png" alt="logo">
+          <p>Chatify is the complete platform for building & deploying AI agents for your business to handle IT and company policy queries</p>
+      </div>
+    </footer>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
