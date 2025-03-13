@@ -6,9 +6,12 @@ This project is an AI-powered chatbot designed to provide intelligent and contex
 
 * **Natural Language Understanding**: Utilizes advanced NLP models to comprehend user queries and provide relevant responses.
 * **Context-Aware Conversations**: Maintains context during interactions to offer coherent and meaningful dialogues.
+
+
 ![Screenshot 2025-03-13 122010](https://github.com/user-attachments/assets/589f729a-36ba-4899-8584-b61ff4046b03)
 
 ![Screenshot 2025-03-13 114602](https://github.com/user-attachments/assets/6b017463-34a0-433c-be00-9aed6eee2a64)
+
 ![Screenshot 2025-03-13 114642](https://github.com/user-attachments/assets/f1cbe9c2-4ef5-4245-828e-57bd58d734e8)
 
 ## Project Structure
